@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Decodificador</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <img src="img/Vector.png" alt="logo da Alura: letra a minúscula e azul">
+  </header>
+  <!-- Conteúdo -->
+  <main>
+    <!-- Mensagem -->
+    
+    <section class="inseretexto"><input type="text" placeholder="Digite seu texto" id="inseretexto">
+
+      <p><img src="img/Atençao.svg" alt="" srcset="">Apenas letras minúsculas e sem acento.</p>
+
+
+      <div class="inseretexto-btn">
+
+        <input type="button" value="Criptografar" id="criptografar">
+        
+        <input type="button" value="Descriptografar" id="descriptografar">
+
+      </div>
+    </section>
+
+
+    <!-- Encriptador -->
+    <section>
+      <div class="aparecetexto" id="aparecetexto">
+        <picture>
+          <source media="(min-width:900px)" srcset="../img/imagem_buscando.svg" sizes="100vw" role="img">
+          <img src="img/imagem_buscando.svg" alt="pessoa buscando as informações com uma lupa""></picture>
+        <h1>Nenhuma mensagem encontrada</h1>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+        <div id="btncopiar"></div>
+      </div>
+    </section>
+  </main>
+  <!-- JavaScript -->
+  <script src="script/script.js"></script>
+</body>
+
+</html>
